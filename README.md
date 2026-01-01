@@ -8,8 +8,7 @@ Dibangun menggunakan **HTML5, CSS3, dan JavaScript**, dengan desain modern, resp
 
 ## 🚀 Preview
 
-- [Live Demo](https://username.github.io/neo-konstruksi/)  
-_(Ganti dengan link GitHub Pages kamu)_
+- [Live Demo](https://agiteelhan.github.io/NeoKonstruksi/)  
 
 ---
 
