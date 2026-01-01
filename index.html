@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet" />
+
+    <link rel="stylesheet" href="style.css" />
+    <title>Neo Konstruksi</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__header">
+        <div class="nav__logo">
+          <a href="#" class="logo">
+            <i class="ri-building-4-line"></i>
+            Neo Konstruksi
+          </a>
+        </div>
+        <div class="nav__menu__btn" id="menu-btn">
+          <i class="ri-menu-line"></i>
+        </div>
+      </div>
+      <ul class="nav__links" id="nav-links">
+        <li><a href="#home">Beranda</a></li>
+        <li><a href="#tentang">Tentang Kami</a></li>
+        <li><a href="#layanan">Layanan</a></li>
+        <li><a href="#portofolio">Portofolio</a></li>
+        <li><a href="#testimoni">Testimoni</a></li>
+        <li><a href="#contact">Kontak</a></li>
+        <li><a href="#" class="btn-pesan">Pesan Sekarang!</a></li>
+      </ul>
+      <div class="nav__btns">
+        <a 
+          href="https://wa.me/6281585692357?text=Halo%20Neo%20Konstruksi,%20saya%20ingin%20konsultasi%20pembangunan%20rumah."
+          target="_blank"
+          rel="noopener noreferrer"
+          class="btn btn-whatsapp"
+          aria-label="Hubungi kami via WhatsApp"
+        >
+          <i class="ri-whatsapp-line"></i>
+          <span>WhatsApp Kami</span>
+        </a>
+      </div>
+    </nav>
+
+    <header id="home">
+      <div class="header__container">
+        <div class="header__content">
+          <p class="header__label">
+            <i class="ri-hammer-line"></i>
+            JASA KONTRAKTOR RUMAH TERPERCAYA
+          </p>
+          <h1>Mewujudkan Rumah Impian dengan <span class="highlight">Kualitas Terbaik</span></h1>
+          <p class="header__desc">
+            Neo Konstruksi melayani pembangunan dan renovasi rumah dengan tenaga profesional, 
+            material berkualitas, dan harga transparan.
+          </p>
+          <div class="header__btns">
+            <button class="btn btn-whatsapp" onclick="hubungiWhatsApp()" aria-label="Hubungi kami via WhatsApp">
+              <i class="ri-whatsapp-line"></i>
+              <span>Hubungi Kami</span>
+            </button>
+          </div>
+        </div>
+        <div class="header__image">
+          <div class="image__placeholder">
+            
+          </div>
+          <!-- <img src="img/bg-home.jpg" alt="Proyek konstruksi rumah Neo Konstruksi" loading="lazy" /> -->
+        </div>
+      </div>
+    </header>
+    <section id="tentang" class="about">
+      <div class="about__container">
+        
+        <div class="about__image">
+          <img src="img/about.jpg" alt="Neo Konstruksi">
+        </div>
+
+        <div class="about__content">
+          <h2>Tentang Neo Konstruksi</h2>
+          <p class="about__subtitle">
+            Mitra terpercaya untuk pembangunan dan renovasi rumah
+          </p>
+
+          <p>
+            <strong>Neo Konstruksi</strong> adalah penyedia jasa kontraktor rumah
+            yang berfokus pada kualitas, ketepatan waktu, dan kepuasan klien.
+            Kami melayani pembangunan rumah baru, renovasi, hingga perbaikan
+            dengan tenaga profesional dan material berkualitas.
+          </p>
+
+          <p>
+            Dengan pengalaman di berbagai proyek rumah tinggal, kami berkomitmen
+            memberikan hasil terbaik mulai dari perencanaan, pengerjaan,
+            hingga finishing secara rapi dan transparan.
+          </p>
+
+          <ul class="about__list">
+            <li><i class="ri-check-line"></i> Tenaga ahli & berpengalaman</li>
+            <li><i class="ri-check-line"></i> Material berkualitas</li>
+            <li><i class="ri-check-line"></i> Harga transparan & bersaing</li>
+            <li><i class="ri-check-line"></i> Tepat waktu & bergaransi</li>
+          </ul>
+        </div>
+
+      </div>
+    </section>
+
+
+    <section class="section__container services__container" id="layanan">
+      <h2 class="section__header">Layanan Kami</h2>
+      <p class="section__description">
+        Solusi lengkap pembangunan dan renovasi rumah dengan tenaga profesional
+      </p>
+
+      <div class="destination__grid">
+        <div class="destination__card">
+          <img src="img/building.jpg" alt="Bangun Rumah">
+          <div class="destination__card__details">
+            <div>
+              <h4>Pembangunan Rumah</h4>
+              <p>Dari perencanaan hingga finishing dengan kualitas terbaik.</p>
+            </div>
+            <div class="destination__ratings">
+              <span><i class="ri-home-4-fill"></i></span>
+            </div>
+          </div>
+        </div>
+
+        <div class="destination__card">
+          <img src="img/renovation.jpg" alt="Renovasi Rumah">
+          <div class="destination__card__details">
+            <div>
+              <h4>Renovasi Rumah</h4>
+              <p>Perbaikan dan pembaruan rumah agar lebih nyaman dan modern.</p>
+            </div>
+            <div class="destination__ratings">
+              <span><i class="ri-hammer-fill"></i></span>
+            </div>
+          </div>
+        </div>
+
+        <div class="destination__card">
+          <img src="img/design.jpg" alt="Desain & Perencanaan">
+          <div class="destination__card__details">
+            <div>
+              <h4>Desain & Perencanaan</h4>
+              <p>Desain rumah fungsional, estetis, dan sesuai kebutuhan.</p>
+            </div>
+            <div class="destination__ratings">
+              <span><i class="ri-draft-fill"></i></span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+
+    <section class="section__container portfolio__container" id="portofolio">
+      <h2 class="section__header">Portofolio Proyek</h2>
+      <p class="section__description">
+        Dokumentasi proyek pembangunan dan renovasi rumah Neo Konstruksi
+      </p>
+      <br>
+
+      <div class="portfolio__grid">
+
+        <div class="portfolio__item bangun">
+          <img src="img/building.jpg" alt="Bangun Rumah">
+          <div class="portfolio__overlay">
+            <h4>Rumah Modern 2 Lantai</h4>
+            <p>Pembangunan Rumah</p>
+          </div>
+        </div>
+
+        <div class="portfolio__item renovasi">
+          <img src="img/renovation.jpg" alt="Renovasi Rumah">
+          <div class="portfolio__overlay">
+            <h4>Renovasi Total Rumah</h4>
+            <p>Renovasi</p>
+          </div>
+        </div>
+
+        <div class="portfolio__item desain">
+          <img src="img/design.jpg" alt="Desain Rumah">
+          <div class="portfolio__overlay">
+            <h4>Desain Rumah Minimalis</h4>
+            <p>Desain</p>
+          </div>
+        </div>
+
+        <div class="portfolio__item bangun">
+          <img src="img/building-2.jpg" alt="Bangun Rumah">
+          <div class="portfolio__overlay">
+            <h4>Rumah Type 45</h4>
+            <p>Pembangunan Rumah</p>
+          </div>
+        </div>
+
+        <div class="portfolio__item renovasi">
+          <img src="img/renovation-2.jpg" alt="Renovasi Rumah">
+          <div class="portfolio__overlay">
+            <h4>Renovasi Total Rumah</h4>
+            <p>Renovasi</p>
+          </div>
+        </div>
+
+        <div class="portfolio__item desain">
+          <img src="img/design-2.jpg" alt="Desain Rumah">
+          <div class="portfolio__overlay">
+            <h4>Desain Rumah Minimalis</h4>
+            <p>Desain</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="section__container testimonial__container" id="testimoni">
+      <h2 class="section__header">Apa Kata Klien Kami</h2>
+      <p class="section__description">
+        Kepuasan klien adalah prioritas utama Neo Konstruksi
+      </p>
+      <br>
+
+      <!-- TESTIMONI -->
+      <div class="testimonial__grid">
+        <div class="testimonial__card">
+          <span><i class="ri-double-quotes-l"></i></span>
+          <p>
+            Neo Konstruksi sangat profesional. Pengerjaan tepat waktu dan hasilnya
+            melebihi ekspektasi kami.
+          </p>
+          <h4>Steve Rogers</h4>
+          <small>Pembangunan Rumah</small>
+        </div>
+
+        <div class="testimonial__card">
+          <span><i class="ri-double-quotes-l"></i></span>
+          <p>
+            Renovasi rumah rapi, komunikatif, dan hasilnya sangat memuaskan.
+          </p>
+          <h4>Peter Parker</h4>
+          <small>Renovasi Rumah</small>
+        </div>
+
+        <div class="testimonial__card">
+          <span><i class="ri-double-quotes-l"></i></span>
+          <p>
+            Desain rumah modern dan sesuai kebutuhan keluarga kami.
+          </p>
+          <h4>Tony Stark</h4>
+          <small>Desain & Perencanaan</small>
+        </div>
+      </div>
+
+      <!-- STATISTIK -->
+      <div class="testimonial__stats">
+        <div class="stat__card">
+          <h4>10+</h4>
+          <p>Tahun Pengalaman</p>
+        </div>
+        <div class="stat__card">
+          <h4>120+</h4>
+          <p>Proyek Selesai</p>
+        </div>
+        <div class="stat__card">
+          <h4>4.8</h4>
+          <p>Rating Kepuasan</p>
+        </div>
+      </div>
+    </section>
+
+    <footer id="contact">
+      <div class="section__container footer__container">
+
+        <!-- Kolom 1: Brand -->
+        <div class="footer__col">
+          <div class="footer__logo">
+            <a href="#home" class="logo">Neo Konstruksi</a>
+          </div>
+          <p>
+            Neo Konstruksi adalah penyedia jasa pembangunan dan renovasi rumah
+            yang mengutamakan kualitas, ketepatan waktu, dan kepuasan klien.
+            Kami siap menjadi mitra terpercaya untuk rumah impian Anda.
+          </p>
+          <ul class="footer__socials">
+            <li>
+              <a href="#"><i class="ri-facebook-fill"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="ri-instagram-line"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="ri-whatsapp-line"></i></a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Kolom 2: Navigasi -->
+        <div class="footer__col">
+          <h4>Menu</h4>
+          <ul class="footer__links">
+            <li><a href="#home">Beranda</a></li>
+            <li><a href="#tentang">Tentang Kami</a></li>
+            <li><a href="#layanan">Layanan</a></li>
+            <li><a href="#proyek">Proyek</a></li>
+          </ul>
+        </div>
+
+        <!-- Kolom 3: Kontak -->
+        <div class="footer__col">
+          <h4>Kontak</h4>
+          <ul class="footer__links">
+            <li>
+              <a href="https://wa.me/6281585692357" target="_blank">
+                <span><i class="ri-phone-fill"></i></span> 0815-8569-2357
+              </a>
+            </li>
+            <li>
+              <a href="mailto:info@neokonstruksi.id">
+                <span><i class="ri-mail-fill"></i></span>
+                neokonstruksiofficial@neokonstruksi.id
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span><i class="ri-map-pin-2-fill"></i></span>
+                Jakarta, Indonesia
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Kolom 4: CTA -->
+        <div class="footer__col">
+          <h4>Konsultasi Gratis</h4>
+          <p>
+            Hubungi kami sekarang untuk diskusi kebutuhan pembangunan atau renovasi rumah Anda.
+          </p>
+          <a
+            href="https://wa.me/6281585692357?text=Halo%20Neo%20Konstruksi,%20saya%20ingin%20konsultasi%20proyek%20rumah."
+            target="_blank"
+            class="btn btn-whatsapp"
+          >
+            <i class="ri-whatsapp-line"></i>
+            Hubungi Kami
+          </a>
+        </div>
+
+      </div>
+
+      <!-- Footer Bottom -->
+      <div class="footer__bar">
+        <p>
+          © 2026 Neo Konstruksi. All rights reserved.
+        </p>
+      </div>
+    </footer>
+
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script>
+      function hubungiWhatsApp() {
+        const pesan = encodeURIComponent(
+          "Halo Neo Konstruksi, saya ingin konsultasi pembangunan rumah."
+        );
+        window.open(
+          "https://wa.me/6281585692357?text=" + pesan,
+          "_blank"
+        );
+      }
+    </script>
+
+    <script>
+      const filterBtns = document.querySelectorAll(".filter-btn");
+      const items = document.querySelectorAll(".portfolio__item");
+
+      filterBtns.forEach(btn => {
+        btn.addEventListener("click", () => {
+          filterBtns.forEach(b => b.classList.remove("active"));
+          btn.classList.add("active");
+
+          const filter = btn.getAttribute("data-filter");
+
+          items.forEach(item => {
+            if (filter === "all" || item.classList.contains(filter)) {
+              item.style.display = "block";
+            } else {
+              item.style.display = "none";
+            }
+          });
+        });
+      });
+      </script>
+  </body>
+</html>
