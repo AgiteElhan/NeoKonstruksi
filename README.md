@@ -33,8 +33,6 @@ _(Ganti dengan link GitHub Pages kamu)_
 
 ---
 
-## 📥 Cara Menjalankan Project
-
 ### 1️⃣ Clone Repository
 ```bash
-git clone https://github.com/username/neo-konstruksi.git
+git clone https://github.com/AgiteElhan/NeoKonstruksi
